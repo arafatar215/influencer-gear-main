@@ -114,6 +114,11 @@ hr {
     background-repeat: no-repeat;
 }
 
+.thamble:hover .blogpost-thamble {
+    transform: rotate(-15deg);
+
+}
+
 .thamble img {
     width: 440px;
     height: 414px;
