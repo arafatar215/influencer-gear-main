@@ -264,3 +264,29 @@ hr {
     padding: 10px;
     font-size: 25px;
 }
+
+/*------------------------- Media Queries  ----------------*/
+/*--------------------- Mobile Devices  -------------------*/
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .container-Influencer {
+        width: 100%
+    }
+
+    .life-styles,
+    .logos,
+    .products,
+    .featureds,
+    .end {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .life-style,
+    .product,
+    .featured {
+        flex-direction: column;
+    }
